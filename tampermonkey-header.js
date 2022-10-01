@@ -1,10 +1,10 @@
 module.exports = {
   headers: {
-    name: "FUT Auto Buyer",
+    name: "FUT Auto Buyer Reloaded",
     namespace: "http://tampermonkey.net/",
-    version: "1.3.5",
-    description: "FUT Auto Buyer",
-    author: "CK Algos",
+    version: "1.0.0",
+    description: "FUT 23 Auto Buyer",
+    author: "CK Algos (DjTrilogic edits)",
     match: [
       "https://www.ea.com/*/fifa/ultimate-team/web-app/*",
       "https://www.ea.com/fifa/ultimate-team/web-app/*",
@@ -24,9 +24,9 @@ module.exports = {
       "https://github.com/ckalgos/fut-trade-enhancer/releases/latest/download/fut-trade-enhancer.user.js",
     ],
     updateURL:
-      "https://github.com/ckalgos/fut-auto-buyer/releases/latest/download/fut-auto-buyer.user.js",
+      "https://github.com/DjTrilogic/fut-auto-buyer/releases/latest/download/fut-auto-buyer.user.js",
     downloadURL:
-      "https://github.com/ckalgos/fut-auto-buyer/releases/latest/download/fut-auto-buyer.user.js",
+      "https://github.com/DjTrilogic/fut-auto-buyer/releases/latest/download/fut-auto-buyer.user.js",
     noFrame: true,
   },
 };
